@@ -1,7 +1,45 @@
-.DS_Store
+# Local work and credentials
+.memory-base/
+.local/
+.tmp*
+tmp/
+temp/
+.env
+.env.*
+!.env.example
+.npmrc
+
+# Dependencies, caches and reports
+node_modules/
+.venv/
+venv/
 __pycache__/
 *.py[cod]
-.venv/
-.memory-base/
-.tmp*/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage/
+*.tsbuildinfo
+*.egg-info/
+.playwright-mcp/
+playwright-report/
+test-results/
+*.log
+
+# Build outputs
+/build/
+/dist/
+/build_pack*/
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Repository-specific exclusions
 .env*

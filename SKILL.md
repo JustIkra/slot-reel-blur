@@ -15,18 +15,20 @@ Read the target game's `.memory-base/index.md` and symbol mapping when present, 
 read [the three-copy workflow](workflows/reel-blur.md) before processing images.
 Use the last approved top-trail → core → bottom-trail recipe, not Gaussian blur.
 Preserve source canvas, center, aspect ratio and asset keys; keep candidates in the
-game's ignored `.tmp_<task>/` and leave accepted assets unchanged until approved.
+game's ignored `.tmp/YYYY-MM-DD/<task>/<run>/`. Use the run's start date in
+`Europe/Moscow` and a unique run ID; resume in the same directory. Preserve historical
+`.tmp_*` artifacts and leave accepted assets unchanged until approved.
 
 ## Run
 
 Use Python 3.10+ with `requirements.txt` installed in the chosen environment.
-The shared workspace already provides `/Users/maksim/MorningCat/.local/skills-venv/bin/python`.
+The shared workspace already provides the prepared interpreter listed in the workspace tools index.
 No `slot-gen` installation is required. From this skill's directory:
 
 ```bash
 python scripts/reel_blur.py \
-  --source-dir /path/to/game/.tmp_blur/static-symbols \
-  --output-dir /path/to/game/.tmp_blur/candidate-v1
+  --source-dir /path/to/game/.tmp/YYYY-MM-DD/reel-blur/RUN_ID/static-symbols \
+  --output-dir /path/to/game/.tmp/YYYY-MM-DD/reel-blur/RUN_ID/candidate-v1
 ```
 
 Use `--help` for the explicit radius/offset and Abydos filename mapping options.

@@ -27,8 +27,8 @@ From the slot-reel-blur repository with its requirements installed:
 
 ```bash
 python scripts/reel_blur.py \
-  --source-dir /path/to/game/.tmp_blur/static-symbols \
-  --output-dir /path/to/game/.tmp_blur/candidate-v1
+  --source-dir /path/to/game/.tmp/YYYY-MM-DD/reel-blur/RUN_ID/static-symbols \
+  --output-dir /path/to/game/.tmp/YYYY-MM-DD/reel-blur/RUN_ID/candidate-v1
 ```
 
 The source directory should contain only intended PNG symbols. The output directory
@@ -81,7 +81,7 @@ between blur and landed symbols for scale/center jumps. Asset-only work stops at
 
 ## Provenance
 
-Extracted from `games/book-of-abydos/.tmp_paytable_spine/make_vertical_8px_motion.py`.
+The original derivation is retained in the workspace artifact index under the paytable Spine materials.
 Despite its historical name, its final radius is **20**, not 8. All 12 extracted outputs
 were compared as decoded RGBA against the blur assets in Book of Abydos commit
 `697dbf6`; they matched exactly. Older developer notes describe a different, rejected
