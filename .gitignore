@@ -43,3 +43,13 @@ Thumbs.db
 
 # Repository-specific exclusions
 .env*
+
+# Local agent state and development evidence
+.agents/
+.claude/
+.codex/
+AGENTS.md
+CLAUDE.md
+/runtime-metrics*.json
+/*-baseline-runtime.json
+/*-session.png
