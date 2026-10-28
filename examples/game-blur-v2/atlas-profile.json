@@ -1,0 +1,125 @@
+{
+  "defaults": {},
+  "files": {
+    "grand.png": {
+      "preset": "coins",
+      "softness": 0.169,
+      "motion_length": 29.739,
+      "core_mix": 0.0001,
+      "shift_x": 0,
+      "shift_y": -0.5
+    },
+    "major.png": {
+      "preset": "coins",
+      "softness": 0.245,
+      "motion_length": 29.811,
+      "core_mix": 0.0,
+      "shift_x": 1,
+      "shift_y": -0.5
+    },
+    "minor.png": {
+      "preset": "coins",
+      "softness": 0.255,
+      "motion_length": 29.799,
+      "core_mix": 0.0,
+      "shift_x": 1,
+      "shift_y": -0.5
+    },
+    "mini.png": {
+      "preset": "coins",
+      "softness": 0.09,
+      "motion_length": 29.748,
+      "core_mix": 0.0001,
+      "shift_x": 0,
+      "shift_y": -0.5
+    },
+    "orb_ring.png": {
+      "preset": "coins",
+      "softness": 0.273,
+      "motion_length": 29.793,
+      "core_mix": 0.0001,
+      "shift_x": 0,
+      "shift_y": -0.5
+    },
+    "orb.png": {
+      "preset": "coins",
+      "softness": 0.345,
+      "motion_length": 29.841,
+      "core_mix": 0.0,
+      "shift_x": 0,
+      "shift_y": -0.5
+    },
+    "seven.png": {
+      "preset": "symbols",
+      "softness": 3.534,
+      "motion_length": 31.43,
+      "core_mix": 0.1421,
+      "shift_x": 0,
+      "shift_y": -0.5
+    },
+    "horn.png": {
+      "preset": "symbols",
+      "softness": 3.971,
+      "motion_length": 40.265,
+      "core_mix": 0.0001,
+      "shift_x": 0,
+      "shift_y": 0
+    },
+    "bar.png": {
+      "preset": "symbols",
+      "softness": 3.842,
+      "motion_length": 41.553,
+      "core_mix": 0.0527,
+      "shift_x": 0,
+      "shift_y": -0.5
+    },
+    "gem_red.png": {
+      "preset": "soft-symbols",
+      "softness": 5.926,
+      "motion_length": 40.672,
+      "core_mix": 0.0,
+      "shift_x": 0,
+      "shift_y": -0.5
+    },
+    "gem_purple.png": {
+      "preset": "symbols",
+      "softness": 3.945,
+      "motion_length": 40.484,
+      "core_mix": 0.0001,
+      "shift_x": -1,
+      "shift_y": -0.5
+    },
+    "gem_blue.png": {
+      "preset": "soft-symbols",
+      "softness": 6.033,
+      "motion_length": 40.496,
+      "core_mix": 0.0,
+      "shift_x": -2,
+      "shift_y": -0.5
+    },
+    "gem_green.png": {
+      "preset": "soft-symbols",
+      "softness": 6.061,
+      "motion_length": 40.616,
+      "core_mix": 0.0,
+      "shift_x": -1,
+      "shift_y": -0.5
+    },
+    "gem_yellow.png": {
+      "preset": "symbols",
+      "softness": 3.874,
+      "motion_length": 40.56,
+      "core_mix": 0.0001,
+      "shift_x": 0,
+      "shift_y": -0.5
+    },
+    "x.png": {
+      "preset": "soft-symbols",
+      "softness": 6.073,
+      "motion_length": 40.896,
+      "core_mix": 0.0001,
+      "shift_x": 0,
+      "shift_y": -0.5
+    }
+  }
+}
